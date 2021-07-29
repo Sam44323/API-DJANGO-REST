@@ -12,7 +12,7 @@
 
 ---
 
-`Note: This repo contains a custom virtual environment. So when you are trying to use this project then make sure to activate the virtual environment that comes with it.`
+_Note: This repo contains a custom virtual environment. So when you are trying to use this project then make sure to activate the virtual environment that comes with it._
 
 ---
 
