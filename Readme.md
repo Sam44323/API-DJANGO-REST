@@ -6,7 +6,7 @@
 
 ---
 
-- Python(version 3)
+- Python(version 3.9)
 - Sqlite
 - Django
 
