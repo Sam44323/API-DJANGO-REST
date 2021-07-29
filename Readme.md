@@ -9,6 +9,7 @@
 - Python(version 3.9)
 - Sqlite
 - Django
+- django-environ
 
 ---
 
