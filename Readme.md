@@ -30,12 +30,12 @@ source bin/activate
 activate <Name of the folder as which you cloned this project>
 ```
 
-<!-- **To run the backend code, first `cd to basicAPI `folder and run the following commands**
+**To run the backend code, first `cd to basicAPI `folder and run the following commands**
 
 ---
 
 ```
-
-``` -->
+python3 manage.py runserver
+```
 
 ---
