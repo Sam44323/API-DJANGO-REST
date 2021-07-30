@@ -2,7 +2,7 @@
 
 **A simple CRUD operation API that uses Django in the backend**
 
-### Techstack
+### Tech-stack
 
 ---
 
