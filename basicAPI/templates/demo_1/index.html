@@ -1,13 +1,14 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo 1</title>
+    <title>Minions</title>
   </head>
   <body>
-    <h1>This is DEMO 1</h1>
-    {{ name }}
+    <h1>This is Banana</h1>
+    <img src='{% static "images/minion.jpeg" %}' alt="minions" />
   </body>
 </html>
