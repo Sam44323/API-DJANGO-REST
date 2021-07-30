@@ -1,2 +1,3 @@
 ..gpg
 .env
+__pycache__
