@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    my_dict = {'name': "This is from demo_1/index.html!"}
+    my_dict = {'name': "This is from Minions"}
     return render(request, 'demo_1/index.html', context=my_dict)
