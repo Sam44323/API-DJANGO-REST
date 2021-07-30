@@ -10,6 +10,7 @@
 - Sqlite
 - Django
 - django-environ
+- autopep8
 
 ---
 
