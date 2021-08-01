@@ -7,7 +7,7 @@
 ---
 
 - Python(version 3.9)
-- Sqlite
+- sqlite
 - Django
 - django-environ
 - autopep8
