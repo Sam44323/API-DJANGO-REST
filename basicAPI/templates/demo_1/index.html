@@ -6,10 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href='{% static "css/styles.css" %}' />
-    <title>Minions</title>
+    <title>Django</title>
   </head>
   <body>
-    <h1>This is Banana!</h1>
-    <img src='{% static "images/minion.jpeg" %}' alt="minions" />
+    <h1>These are the access records</h1>
+
+    <div class="access_container">
+      {% if access_records %}
+      <table>
+        <thead>
+          <th>Site Name</th>
+          <th>Date Accessed</th>
+        </thead>
+        {% for acc in access_records %}
+        <tr>
+          <td>{{acc.name}}</td>
+          <td>{{acc.date}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
   </body>
 </html>
