@@ -37,7 +37,7 @@ activate <Name of the folder as which you cloned this project>
 ---
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
 ---
