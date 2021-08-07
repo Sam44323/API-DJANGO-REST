@@ -15,7 +15,10 @@
   <body>
     <h1>Fill out the form!</h1>
     <div class="container">
-      <form method="POST">{{form.as_p}}</form>
+      <form method="POST">
+        {{form.as_p}} {% csrf_token %}
+        <input class="btn btn-primary" type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
