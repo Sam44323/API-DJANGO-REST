@@ -9,6 +9,7 @@
 - Python(version 3.9)
 - sqlite
 - Django
+- Bootstrap
 - django-environ
 - autopep8
 
