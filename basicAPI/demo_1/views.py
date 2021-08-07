@@ -13,4 +13,4 @@ def index(request):
 
 def form_name_view(request):
     form = forms.FormName()
-    render(request, 'demo_1/forms/html', {'form': form})
+    return render(request, 'demo_1/forms.html', {'form': form})
