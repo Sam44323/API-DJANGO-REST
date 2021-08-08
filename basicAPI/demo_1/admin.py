@@ -1,6 +1,7 @@
 from django.contrib import admin
-from demo_1.models import AccessRecord, Topic, Webpage
+from demo_1.models import AccessRecord, Topic, Webpage, User
 
 admin.site.register(AccessRecord)
 admin.site.register(Topic)
 admin.site.register(Webpage)
+admin.site.register(User)
